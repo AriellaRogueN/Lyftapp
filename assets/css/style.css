@@ -35,3 +35,26 @@
  #cont-2 h2{
     margin-top: 8em;
 }
+
+#ground-3 {
+    background-image: url("../images/auto.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: left 50%;
+}
+
+#ground-3 h2,h3,hr{
+    color:white;
+}
+
+#resend-btn{
+    margin-top: 2em;
+}
+
+#next-btn {
+    margin-top: 3em;
+}
+
+#next-btn:active{
+    background-color: fuchsia;
+}

@@ -12,6 +12,11 @@ $(document).ready(function () {
             };
         };
     });
+
+    $("#in-btn").click(function () {
+        window.location = 'index3.html'
+    });
+
         
     $("#in-btn").click(function () {
         var code = "";
@@ -22,11 +27,28 @@ $(document).ready(function () {
         alert("El código es LAB " + code);
     });
 
-    $("#in-btn").click(function () {
-        window.location = 'index3.html'
+    $("#yourcode").keydown(function () {
+        var code = $(this).val();
+        for (var i = 0; i < 1; i++) {
+            if (code.length == 3) {
+                $("#resend-btn").removeAttr("disabled")
+            } else {
+                $("#resend-btn").attr("disabled", "disabled")
+            };
+        };
     });
     
-    
+    $("#yourcode").keydown(function () {
+        var code = $(this).val();
+        for (var i = 0; i < 1; i++) {
+            if (code.length == 3) {
+                $("#next-btn").removeAttr("disabled")
+            } else {
+                $("#next-btn").attr("disabled", "disabled")
+            };
+        };
+    });
+
        
 });
 
