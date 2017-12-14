@@ -1,7 +1,9 @@
 $(document).ready(function () {
+    /*Funcion al hacer click en el primer boton redireccione a la vista 2*/
     $("#sign-up").click(function () {
        window.location = 'index2.html' 
 });
+    /*Funcion para validar los digitos ingresados por el usuario, esto permite habilitar el boton*/
     $("#tel").keydown(function () {
         var phone = $(this).val();
         for (var i = 0; i < 1; i++) {
@@ -17,7 +19,7 @@ $(document).ready(function () {
         window.location = 'index3.html'
     });
 
-        
+     /*Funcion que genera numeros de forma aleatoria*/   
     $("#in-btn").click(function () {
         var code = "";
         var str = "123456789";
@@ -26,7 +28,7 @@ $(document).ready(function () {
         };
         alert("El código es LAB " + code);
     });
-
+     /*Validar codigo*/
     $("#yourcode").keydown(function () {
         var code = $(this).val();
         for (var i = 0; i < 1; i++) {
@@ -42,7 +44,7 @@ $(document).ready(function () {
         window.location = 'index4.html'
 
     });
-    
+    /*Habilitar boton next de vista 4*/
     $("#yourcode").keydown(function () {
         var code = $(this).val();
         for (var i = 0; i < 1; i++) {
@@ -54,7 +56,10 @@ $(document).ready(function () {
         };
     });
  
-    
+    $("#to-btn").click(function () {
+        window.location = 'index5.html'
+
+    });
        
 });
 
