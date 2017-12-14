@@ -11,13 +11,27 @@
     margin-left: 8em;
 }
 
-.btn{
+#sign-up, #log-in{
     margin-top: 27em;
     background-color: transparent;
     color:white;
 }
 
-.btn:hover{
-    background-color: fuchsia; 
+.glyphicon{
+    font-size: 0.8em;
 }
 
+#ground-2 {
+    background-image: url("../images/auto.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: left 50%;
+}
+
+#ground-2 h2,h5,hr{
+    color:white;
+}
+
+ #cont-2 h2{
+    margin-top: 8em;
+}
