@@ -37,6 +37,11 @@ $(document).ready(function () {
             };
         };
     });
+
+    $("#next-btn").click(function () {
+        window.location = 'index4.html'
+
+    });
     
     $("#yourcode").keydown(function () {
         var code = $(this).val();
@@ -48,7 +53,8 @@ $(document).ready(function () {
             };
         };
     });
-
+ 
+    
        
 });
 
