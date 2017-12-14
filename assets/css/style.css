@@ -1,3 +1,4 @@
+/*Imgen de fondo primera vista*/
 #ground{
     background-image: url("../images/auto.jpg");
     width:100%;
@@ -10,17 +11,17 @@
     height:50px;
     margin-left: 8em;
 }
-
+/*Estilizando los botones de la pantalla de inicio*/
 #sign-up, #log-in{
-    margin-top: 27em;
+    margin-top: 23em;
     background-color: transparent;
     color:white;
 }
-
+/*Icono*/
 .glyphicon{
     font-size: 0.8em;
 }
-
+/*Imagen de fondo segunda vista*/
 #ground-2 {
     background-image: url("../images/auto.jpg");
     width: 100%;
@@ -33,9 +34,9 @@
 }
 
  #cont-2 h2{
-    margin-top: 8em;
+    margin-top: 6em;
 }
-
+/*Imagen de fondo tercera vista*/
 #ground-3 {
     background-image: url("../images/auto.jpg");
     width: 100%;
@@ -46,7 +47,7 @@
 #ground-3 h2,h3,hr{
     color:white;
 }
-
+/*Estilizando botones*/
 #resend-btn{
     margin-top: 2em;
 }
